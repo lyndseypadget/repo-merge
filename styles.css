@@ -11,8 +11,23 @@ h1 {
   font-size: 32px;
 }
 
-h3 {
-  color: pink;
+header {
+  background-color: thistle;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a:link, a:visited, a:hover, a:active {
+  color: purple;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.tag-line {
+  color: red;
   font-size: 22px;
 }
 
